@@ -5,3 +5,52 @@
     --color__neut--dark-grayish-violet: hsl(273, 4%, 51%);
     --color__neut--very-light-gray: hsl(0, 0%, 98%);
 }
+
+/* 
+blocks
+*/
+.brand {
+    display: flex;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: var(--color__neut--very-light-gray);
+}
+
+.icon {
+    max-width: 100%;
+}
+
+.icon-group {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+}
+
+/*
+elements
+*/
+.header__close-icon {
+    display: none;
+}
+
+.header__menu {
+    display: none;
+}
+
+.page__header {
+    position: relative;
+}
+
+/* 
+modifiers 
+*/
+.page--marginless {
+    margin: 0;
+}
