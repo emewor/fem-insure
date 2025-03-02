@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "DM Serif Display";
+    src: url("../fonts/dm-serif-display/DMSerifDisplay-Regular.ttf") format("embedded-opentype"), /* Internet Explorer */
+    url("../fonts/dm-serif-display/DMSerifDisplay-Regular.ttf") format("woff2"),             /* Super Modern Browsers */
+    url("../fonts/dm-serif-display/DMSerifDisplay-Regular.ttf") format("woff"),              /* Pretty Modern Browsers */
+    url("../fonts/dm-serif-display/DMSerifDisplay-Regular.ttf") format("truetype");          /* Safari, Android, iOS */
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Karla;
+    src: url("../fonts/karla/Karla-VariableFont_wght.ttf") format("embedded-opentype"), /* Internet Explorer */
+    url("../fonts/karla/Karla-VariableFont_wght.ttf") format("woff2"),             /* Super Modern Browsers */
+    url("../fonts/karla/Karla-VariableFont_wght.ttf") format("woff"),              /* Pretty Modern Browsers */
+    url("../fonts/karla/Karla-VariableFont_wght.ttf") format("truetype"),          /* Safari, Android, iOS */
+}
