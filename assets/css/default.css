@@ -1,0 +1,7 @@
+:root {
+    --color__pri--dark-violet: hsl(256, 26%, 20%);
+    --color__pri--grayish-blue: hsl(216, 30%, 68%);
+    --color__neut--very-dark-violet: hsl(270, 9%, 17%);
+    --color__neut--dark-grayish-violet: hsl(273, 4%, 51%);
+    --color__neut--very-light-gray: hsl(0, 0%, 98%);
+}
