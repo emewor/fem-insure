@@ -29,6 +29,12 @@ blocks
     background-color: var(--color__neut--very-light-gray);
 }
 
+.hero {
+    display: flex;
+    box-sizing: border-box;
+    width: 100vw;
+}
+
 .icon {
     max-width: 100%;
 }
@@ -42,11 +48,27 @@ blocks
     text-align: center;
 }
 
+.img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: italic;
+    shape-margin: 0.75rem;
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+}
+
 .link {
     font-family: Karla, sans-serif;
     font-size: 1.25rem;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.main {
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100vw;
 }
 
 .menu {
@@ -97,6 +119,10 @@ elements
     font-size: 1.21875rem;
     font-weight: 600;
     letter-spacing: 1.95px;
+}
+
+.home__hero {
+    flex-direction: column-reverse;
 }
 
 .page__header {
