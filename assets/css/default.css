@@ -72,7 +72,7 @@ blocks
     text-align: center;
 }
 
-.heading::before {
+.heading-top-divider::before {
     position: absolute;
     top: -80%;
     left: calc((100% - 45%) / 2);
@@ -173,6 +173,10 @@ elements
     color: var(--color__pri--dark-violet);
     font-size: 28px;
     letter-spacing: -0.25px;
+}
+
+.features__heading::before {
+    display: block;
 }
 
 .feature__sub-heading {
