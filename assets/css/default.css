@@ -12,6 +12,7 @@ blocks
 */
 .brand {
     display: flex;
+    
 }
 
 .copy {
@@ -42,6 +43,13 @@ blocks
     border-color: var(--color__pri--dark-violet);
 }
 
+.divider {
+    display: flex;
+    border: unset;
+    border-block-end: 1px solid var(--color__neut--dark-grayish-violet);
+    opacity: 0.25;
+}
+
 .features {
     display: flex;
     flex-direction: column;
@@ -55,6 +63,15 @@ blocks
     display: flex;
     flex-direction: column-reverse;
     row-gap: 12px;
+}
+
+.footer {
+    padding-inline: 24px;
+    background: url("../images/bg-pattern-footer-mobile.svg")
+                no-repeat
+                0 0 / contain;
+    background-color: var(--color__neut--very-light-gray);
+
 }
 
 .header {
@@ -103,6 +120,7 @@ blocks
 }
 
 .icon {
+    vertical-align: middle;
     max-width: 100%;
 }
 
@@ -126,6 +144,7 @@ blocks
 }
 
 .link {
+    display: inline-block;
     font-family: Karla, sans-serif;
     text-decoration: none;
     text-transform: uppercase;
@@ -154,6 +173,15 @@ blocks
 
 .nav {
     display: flex;
+}
+
+.social-links {
+    align-items: center;
+    column-gap: 16px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    width: fit-content;
 }
 
 /*
@@ -200,6 +228,20 @@ elements
     row-gap: 34px;
     padding: 0;
     list-style-type: none;
+}
+
+.footer__brand {
+    align-items: center;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.footer__divider {
+    margin-block: 40px;
+}
+
+.footer__social-links {
+    margin: 0;
 }
 
 .header__close-icon {
@@ -305,6 +347,11 @@ elements
 
 .how-we-work__cta {
     padding-inline: 23px;
+}
+
+.page__footer {
+    margin-block-start: 85px;
+    padding-block: 88px;
 }
 
 .page__header {
