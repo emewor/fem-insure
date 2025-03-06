@@ -25,11 +25,11 @@ blocks
 .cta {
     border: 1px solid transparent;
     padding: 10px 27px;
-    box-sizing: border-box;
     font-family: Karla, sans-serif;
     font-size: 0.875rem;
     font-weight: 400;
     letter-spacing: 1.3px;
+    box-sizing: border-box;
 }
 
 .cta--light {
@@ -111,8 +111,8 @@ blocks
 }
 
 .item {
-    box-sizing: border-box;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .img {
@@ -132,8 +132,8 @@ blocks
 }
 
 .main {
-    box-sizing: border-box;
     overflow: hidden;
+    box-sizing: border-box;
     width: 100vw;
 }
 
@@ -243,7 +243,7 @@ elements
     position: relative;
     row-gap: 32px;
     padding-block: 93px;
-    background: url('../images/bg-pattern-intro-left-mobile.svg')
+    background: url("../images/bg-pattern-intro-left-mobile.svg")
                 no-repeat
                 0 0;
     background-color: var(--color__pri--dark-violet);
@@ -253,7 +253,7 @@ elements
     position: absolute;
     top: 69.43%;
     right: 0;
-    content: url('../images/bg-pattern-intro-right-mobile.svg');
+    content: url("../images/bg-pattern-intro-right-mobile.svg");
     max-width: 100%;
 }
 
