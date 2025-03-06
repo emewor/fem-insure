@@ -95,6 +95,13 @@ blocks
     width: 100vw;
 }
 
+.how-we-work {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100vw;
+}
+
 .icon {
     max-width: 100%;
 }
@@ -267,12 +274,37 @@ elements
     color: var(--color__neut--very-light-gray);
 }
 
+.home__features {
+    padding: 180px 24px 60px;
+}
+
 .home__hero {
     flex-direction: column-reverse;
 }
 
-.home__features {
-    padding: 180px 24px 60px;
+.home__how-we-work {
+    padding: 56px 24px;
+}
+
+
+.how-we-work__copy {
+    row-gap: 40px;
+    padding-block: 72px;
+    background: url("../images/bg-pattern-how-we-work-mobile.svg")
+                no-repeat
+                100% 0;
+    background-color: var(--color__pri--dark-violet);
+}
+
+.how-we-work__heading {
+    margin: 0;
+    color: var(--color__neut--very-light-gray);
+    font-size: 38px;
+    letter-spacing: 0.33px;
+}
+
+.how-we-work__cta {
+    padding-inline: 23px;
 }
 
 .page__header {
