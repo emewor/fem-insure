@@ -1,0 +1,15 @@
+.attribution {
+    border: 1px solid var(--color__pri--dark-violet);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-family: Karla;
+    font-size: 0.75rem; 
+    line-height: 1.25;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.footer__attribution {
+    position: relative;
+    margin-block-start: 40px;
+}
