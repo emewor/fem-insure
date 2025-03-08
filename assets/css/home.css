@@ -1,3 +1,15 @@
+.home__features {
+    padding: 180px 24px 60px;
+}
+
+.home__hero {
+    flex-direction: column-reverse;
+}
+
+.home__how-we-work {
+    padding: 56px 24px;
+}
+
 .attribution {
     border: 1px solid var(--color__pri--dark-violet);
     border-radius: 8px;

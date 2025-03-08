@@ -346,19 +346,6 @@ elements
     color: var(--color__neut--very-light-gray);
 }
 
-.home__features {
-    padding: 180px 24px 60px;
-}
-
-.home__hero {
-    flex-direction: column-reverse;
-}
-
-.home__how-we-work {
-    padding: 56px 24px;
-}
-
-
 .how-we-work__copy {
     row-gap: 40px;
     padding-block: 72px;
