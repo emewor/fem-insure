@@ -10,6 +10,38 @@
     padding: 56px 24px;
 }
 
+@media screen and (min-width: 90rem) {
+    .home__hero {
+        position: relative;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-inline: 165px;
+        background-color: var(--color__pri--dark-violet);
+    }
+    
+    .home__hero::before {
+        position: absolute;
+        left: 0;
+        bottom: -337px;
+        content: url("../images/bg-pattern-intro-left-desktop.svg");
+    }
+    
+    .home__hero::after {
+        position: absolute;
+        top: -80px;
+        right: 0;
+        content: url("../images/bg-pattern-intro-right-desktop.svg");
+    }
+    
+    .home__hero-img-group {
+        max-height: 600px;
+    }
+    
+    .home__hero-img {
+        transform: translateY(105px);
+    }
+}
+
 .attribution {
     border: 1px solid var(--color__pri--dark-violet);
     border-radius: 8px;
