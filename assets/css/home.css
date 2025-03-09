@@ -45,6 +45,10 @@
     .home__hero-img {
         transform: translateY(105px);
     }
+
+    .home__how-we-work {
+        padding-inline: 165px;
+    }
 }
 
 .attribution {

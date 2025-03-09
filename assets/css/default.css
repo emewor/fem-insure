@@ -510,6 +510,20 @@ modifier
     .hero__heading-group {
         row-gap: 32px;
     }
+
+    .how-we-work__copy {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-inline: 82px;
+        background-image: url("../images/bg-pattern-how-we-work-desktop.svg");
+    }
+
+    .how-we-work__heading {
+        font-size: 3.3125rem;
+        letter-spacing: 0.7px;
+        box-sizing: border-box;
+        max-width: 50%;
+    }
     
     /* modifier */
     .header__cta-link--desktop {
