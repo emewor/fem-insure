@@ -11,6 +11,11 @@
 }
 
 @media screen and (min-width: 90rem) {
+    .home__features {
+        row-gap: 90px;
+        padding: 365px 165px 80px;
+    }
+
     .home__hero {
         position: relative;
         flex-direction: row;

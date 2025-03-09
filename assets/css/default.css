@@ -399,6 +399,12 @@ modifier
 
 @media screen and (min-width: 90rem) {
     /* blocks */
+    .feature {
+        align-items: flex-start;
+        box-sizing: border-box;
+        width: 350px;
+    }
+
     .header {
         padding-block: 0;
         padding-inline: 168px 165px;
@@ -417,13 +423,30 @@ modifier
     }
 
     .heading-top-divider::before {
-        top: -52.5%;
+        top: -66px;
         left: 0;
         height: 1px;
         width: 150px;
     }
 
     /* elements */
+    .features__list {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .features__heading {
+        font-size: 4.375rem;
+    }
+
+    .features__heading::before {
+        margin-block-start: 6px;
+    }
+
+    .feature__copy {
+        align-items: flex-start;
+    }
+
     .header__menu {
         position: initial;
         align-items: center;
