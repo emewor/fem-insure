@@ -479,7 +479,7 @@ modifier
     
     .footer__menu-list {
         align-items: flex-start;
-        column-gap: 80px;
+        column-gap: 160px;
         flex-direction: row;
         justify-content: flex-start;
         box-sizing: border-box;
